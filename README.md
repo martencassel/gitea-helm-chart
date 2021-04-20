@@ -1,4 +1,6 @@
 # Gitea Helm chart
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmartencassel%2Fgitea-helm-chart.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmartencassel%2Fgitea-helm-chart?ref=badge_shield)
+
 [Gitea](https://gitea.com/) is a lightweight GitHub clone. This is for those who wish to self host their own git repos on kubernetes.
 
 ## Introduction
@@ -210,3 +212,7 @@ The following table lists the configurable parameters of this chart and their de
 | `config.mailer.passwd`            | Use PASSWD = `your password` for quoting if you use special characters in the password.. | `unset`
 | `config.metrics.enabled`            | Enables metrics endpoint. Values are `true` or `false`. | `false`
 | `config.metrics.token`            | If you want to add authorization, specify a token for metrics endpoint.  | `unset`
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmartencassel%2Fgitea-helm-chart.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmartencassel%2Fgitea-helm-chart?ref=badge_large)
